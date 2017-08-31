@@ -25,4 +25,4 @@ Also included in ````tasks.py```` are a set of [Invoke](http://www.pyinvoke.org)
 You have *two choices* for when to execute the Lambda function:
 
 * *On a periodic schedule*. This solution uses CloudWatch scheduled events. See this [tutorial](http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/RunLambdaSchedule.html) to create a simple event (example every 15 minutes) to automatically execute the Lambda function.
-* *When Auto Scaling generates an event*. This solution uses Auto Scaling events with an SNS Topic. See this [tutorial](http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/RunLambdaSchedule.html) for more information.
+* *When Auto Scaling generates an event*. This solution uses Auto Scaling events with an SNS Topic. See this [tutorial](https://ajbrown.org/2017/02/10/leader-election-with-aws-auto-scaling-groups.html) for more information.
