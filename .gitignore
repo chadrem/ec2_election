@@ -1,2 +1,4 @@
 *.pyc
+!build/.keep
 build/*
+.python-version
